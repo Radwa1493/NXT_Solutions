@@ -10,6 +10,7 @@ https://github.com/allure-framework/allure2/releases
 https://maven.apache.org/download.cgi
 .........................................
 Project structure 
+
     ├── src/main/java/
     			├──TestCases
     			 ├──AppTest.java
