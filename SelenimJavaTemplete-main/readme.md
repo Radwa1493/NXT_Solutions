@@ -22,19 +22,19 @@ Project structure
                              ├──@Test CreateUser()
                              ├──@Test CreateTrip()
                              ├──@Test DeleteEvent()
-    				 ├──Pages
-    				    ├──AttendesstPage.java
-    				    ├──Base.java
-    				   	├──CreateEventPage.java
-						├──EditEventPage.java
-						├──EventPage.java
-						├──LoginPage.java
-						├──MainPage.java
-						├──PackagePage.java
-    				 ├──Utilities
-   						├──testdata.json 
-   				    	├──readJson.java
-   				    	├──Generator.java
+    			├──Pages
+    			  ├──AttendesstPage.java
+    			  ├──Base.java
+    			  ├──CreateEventPage.java
+			  ├──EditEventPage.java
+			  ├──EventPage.java
+			  ├──LoginPage.java
+			  ├──MainPage.java
+			  ├──PackagePage.java
+    			├──Utilities
+   			  ├──testdata.json 
+   			  ├──readJson.java
+   			  ├──Generator.java
     ├──test-screenShot (save screenshot after each testcase)
     ├──test-recordings (save video for the run)
     ├──allure-results
