@@ -13,7 +13,7 @@ Project structure
 
     ├── src/main/java/
     			├──TestCases
-    			 ├──AppTest.java
+    			├──AppTest.java
                             ├──@BeforeTest setUp()-> (Open chrome and navigate to the URL )
                             ├──@Test Login()-> (Enter Credentials from the json file )
                             ├──@Test CreateEvent()
