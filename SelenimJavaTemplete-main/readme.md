@@ -12,29 +12,29 @@ https://maven.apache.org/download.cgi
 Project structure 
 
     ├── src/main/java/
-    			├──TestCases
-    			 ├──AppTest.java
-                             ├──@BeforeTest setUp()-> (Open chrome and navigate to the URL )
-                             ├──@Test Login()-> (Enter Credentials from the json file )
-                             ├──@Test CreateEvent()
-                             ├──@Test EditEvent()
-                             ├──@Test CreatePackage()
-                             ├──@Test CreateUser()
-                             ├──@Test CreateTrip()
-                             ├──@Test DeleteEvent()
-    			├──Pages
-    			  ├──AttendesstPage.java
-    			  ├──Base.java
-    			  ├──CreateEventPage.java
-			  ├──EditEventPage.java
-			  ├──EventPage.java
-			  ├──LoginPage.java
-			  ├──MainPage.java
-			  ├──PackagePage.java
-    			├──Utilities
-   			  ├──testdata.json 
-   			  ├──readJson.java
-   			  ├──Generator.java
+    	├──TestCases
+    		├──AppTest.java
+                	├──@BeforeTest setUp()-> (Open chrome and navigate to the URL )
+                        ├──@Test Login()-> (Enter Credentials from the json file )
+                        ├──@Test CreateEvent()
+                        ├──@Test EditEvent()
+                        ├──@Test CreatePackage()
+                        ├──@Test CreateUser()
+                        ├──@Test CreateTrip()
+                        ├──@Test DeleteEvent()
+    	├──Pages
+    		├──AttendesstPage.java
+    		├──Base.java
+    		├──CreateEventPage.java
+		├──EditEventPage.java
+		├──EventPage.java
+		├──LoginPage.java
+		├──MainPage.java
+		├──PackagePage.java
+    	├──Utilities
+   		├──testdata.json 
+   		├──readJson.java
+   		├──Generator.java
     ├──test-screenShot (save screenshot after each testcase)
     ├──test-recordings (save video for the run)
     ├──allure-results
