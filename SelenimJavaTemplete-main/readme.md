@@ -11,8 +11,8 @@ https://maven.apache.org/download.cgi
 .........................................
 Project structure 
     ├── src/main/java/
-    				 ├──TestCases
-    			    	├──AppTest.java
+    			├──TestCases
+    			 ├──AppTest.java
                             ├──@BeforeTest setUp()-> (Open chrome and navigate to the URL )
                             ├──@Test Login()-> (Enter Credentials from the json file )
                             ├──@Test CreateEvent()
@@ -21,7 +21,6 @@ Project structure
                             ├──@Test CreateUser()
                             ├──@Test CreateTrip()
                             ├──@Test DeleteEvent()
-
     				 ├──Pages
     				    ├──AttendesstPage.java
     				    ├──Base.java
@@ -31,7 +30,6 @@ Project structure
 						├──LoginPage.java
 						├──MainPage.java
 						├──PackagePage.java
-
     				 ├──Utilities
    						├──testdata.json 
    				    	├──readJson.java
